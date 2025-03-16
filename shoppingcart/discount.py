@@ -36,7 +36,7 @@ class Type1(Discount):
 
 class Type2(Discount):
     '''
-    This discount is applied when a quantity of items is purchased. When at least x items are purchased, the price of x is reduced.
+    This discount is applied when a quantity of items is purchased. When more than x items are purchased, the price of item is reduced.
     '''
 
     def __init__(self, item, quantity, new_price):

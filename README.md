@@ -11,7 +11,7 @@ This is a project assignment for DataRock.
 1. Clone the repository
 2. Run the following command in the terminal from the root directory of the project:
 ```
-python shopping_cart/main.py
+python shoppingcart/main.py
 ```
 
 ## Implementation
@@ -42,4 +42,12 @@ The `PricingRules` class is a simple class that represents the pricing rules of 
 The `Checkout` class is the main class of the application. It has the following attributes:
 - `pricing_rules`: An instance of the `PricingRules` class
 - `cart`: A dictionary that maps the SKU code of an item to the quantity of that item in the cart
+
+
+### Running the tests:
+
+To run the tests, run the following command in the terminal from the root directory of the project:
+```
+python -m unittest discover tests
+```
 
