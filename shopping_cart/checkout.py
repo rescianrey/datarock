@@ -23,9 +23,11 @@ class Checkout(object):
         Calculate the total price.
         '''
         total = 0
-        print('Cart: %s' % self.cart)
+        print('Cart | Quantity')
         for item in self.cart:
-            total += self.pricing_rules.items[item].price * self.cart[item]
+            print('%s | %s' % (item, self.cart[item]))
+            total += self.pricing_rules.catalogue[item].price * self.cart[item]
+
         for discount in self.pricing_rules.discounts:
             if discount.discount_amount(self.cart) > 0:
                 print('Discount applied: %s' % discount)

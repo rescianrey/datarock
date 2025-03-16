@@ -1,4 +1,7 @@
 class Item(object):
+    '''
+    Item in the catalogue.
+    '''
     def __init__(self, code, name, price):
         self.price = price
         self.name = name
