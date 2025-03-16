@@ -2,8 +2,7 @@
 
 ## Description
 
-This is a simple shopping cart application that allows users to add items to their cart and view the total cost of their items with applied discounts. The application is built in Python 2.7.
-This is a project assignment for DataRock.
+This is a simple shopping cart application as specified in the [Datarock Code Challenge](https://github.com/DiUS/coding-tests/blob/master/dius_shopping.md). The application is tested with Python `3.13`. This is a project assignment for DataRock.
 
 
 ## Running the code:
